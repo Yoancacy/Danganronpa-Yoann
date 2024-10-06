@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0.1;
+    padding: 0.1;
+ }
+
+
+body{
+    background-position: 100%; 
+    max-width: 100%; 
+    background-size: cover;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBwcHBw0HBwcHBw0HBwcHBw8IDQcNFREWFhURExMYHSggGCYlJx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQADBv/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDzLMwMzMDMq4CKygirjYCYq42AmNhY2AONhY2AOJh4mAOIeJgChYgCxICMzAzMwMzMDMzAysoMrLgNi42LICYuLi4CYuLi4A42FjYA42FjYA4mHiYAY2FiYA4hYmAKEgChICMzAzMwMqLAVWWA0LEhSA0i40hSAmLiyLgJi4uLgDi4WNgDiYeNgBiYeNgOeJjpg4AYlh4lgBg07EoBUKpQFCEGZmBVaLAWLGiwFixoUgNIUjSLIDSLiyFICY2Fi4A42Fi4A4mHjYAYmHiYAYNjpYNgBYNjpYNgBYNOjQCpTo0AQqlBGZgWFEiwFhRIUBYUSFAWFEhSAsiyNIUgNIuLIuAmNhY2AONhY2AGJYeJgBYNh2JQc7BrpRoOdGulGgFGnRoBRp0aCMzAsKJFgFCiQoCwokKAUKJCgLCiQoDQpGiwGxsXFwBxsLGwAxLCqUAo06NAKNOjQChXShQCjTo0Ao06NAWVgWFBhQChQYUAocGFAKFEhQChQYUAosSFAWK0UEQkAaNKpQCjToUBoU6NAKNKjQCjToUBo0qNBGZgWFBhQChQYUA4UCHAOFAhQDhQYUAoUGFAKKMUFRkBKlWjQShSo0Bo0qNAKNKjQGhSo0Bo0qNBGZgWFAhQDhQIUA4UCHAOFAhQDhQIUA4sGVZQPW0dXQXW1NTQWjW1KCUatGglGrRoJQpUaA0atGglGrUoIyMCwoEKAUKDFgHDjnCgOkKOcpSg6SrKEpSgcqyhq6B6uhraB6mjraC6lqaloLaNrWjaDUa1qWglGrRoJRq0aCUatSgjMwNFgrAOLBiwDhQIUoHKUrnKUoHKUrnKUoHKuhKugetoaugWto62gupqamgto2taloNaNa0bQa0ato0Go1aNBKlWiDMzAhQVAosGKBxZQhSgcWUJV0DlKUNXQPV1z1dA9bR1tAtbR1tAtTR1tBdS1NTQa1KmpaDVK2pQSpWqAyMgMzMDMzAqioEsFQKUpQ1dA9XQ1dAtXQ1dAtXQ1tA9TR1tAtTU1NAtTU1NBdSpqA2pWQGRkBmZgZmYGZmBmZgVRYCXRUC1dBdAtXQ1dAtbR1tAtbR1tAtTU1tBdTU1tBtZEBUZAZmYGZmBmZgZmYGZmBmZgVorAzMwMsZgZmYGZmBkZgZmYErMwIzMDMzAzMwMzMD/2Q==)
+}
+
+
+p1 {
+        font-weight: 800;
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 45px;
+        font-family: "Nunito Sans", bold;
+        font-optical-sizing: auto;
+        font-variation-settings:"wdth" 100,"YTLC" 500;
+ }
+
+
+header{
+    width: 100%;
+    display: flex;
+    height: 5%;
+}
+
+
+    
+img{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    align-items: left;
+}
+
+.block1{
+    margin: 10px 30px;    
+}
+
+.block2{
+    display: flex;
+    justify-content: center;
+    border: 3.5px solid rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    width: 95%;
+    padding: 0px;
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+    }
+
+
+
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    position: absolute;
+    display: flex;
+    border: 3.5px solid rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    height: 1900px;
+    width: 15%;
+    padding: 0px;
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+    line-height: 1cm; 
+    flex-direction: column;
+}
+
+.lien-interne-1{
+    display: flex;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.monokuma{
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.monomi{
+    margin-bottom: 300px;
+}
+
+
+
+.lien-externe{
+    margin-left: 100%;
+    align-items: left;
+    margin-top: -20px;
+}
+
+.all-div{
+    margin-left: 18%;
+    width: 100%;
+    height: 1900px;
+    margin-top: 20px;   
+}
+
+.personnages-1{
+    justify-content: center;
+    border: 3.5px solid rgb(255, 0, 0);
+    text-align: left;
+    align-items: left;
+    height: 5%;
+    width: 100%;
+    padding: 50px;
+    font-size: 25px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.personnages-2  {
+    justify-content: center;
+    border: 3.5px solid rgb(255, 0, 0);
+    text-align: left;
+    align-items: left;
+    height: 5%;
+    width: 100%;
+    padding: 50px;
+    font-size: 25px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+
+    flex-wrap: wrap;
+}
+
+.fourberie1{
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+}
+
+p4{
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 1px;
+ }
+
+p2{
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+}
+
+
+
+.bloc-image {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.bloc-image2 {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+  
+.ligne-1, .ligne-2, .ligne-3, .ligne-4 {
+   
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+
+.ligne-5, .ligne-6, .ligne-7, .ligne-8 {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+
+
+p3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-weight: 200px;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    border: 3.5px solid rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+@media screen and (max-width: 800px) {
+    .block1{
+      width: 95%;
+    }
+} 
+
+.menu a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.all-div a:hover{
+    text-decoration: underline;
+    color: white;
+}
